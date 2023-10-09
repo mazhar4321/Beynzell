@@ -1,0 +1,18 @@
+.search-results-custom-dropdown span.ant-select-selection-item{
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;    
+    padding-left: 10px !important;
+}
+
+button.ant-btn.css-dev-only-do-not-override-fpg3f5.ant-btn-default.show-more-button{
+    display: flex;
+    align-items: center;
+}
+
+.react-multiple-carousel__arrow{
+    background-color: white !important;
+}
+
+.react-multiple-carousel__arrow::before{
+    color: black !important;
+}

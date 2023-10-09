@@ -1,0 +1,116 @@
+/* Navbar.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@,400;500;600&family=Roboto:wght@500&display=swap'); */
+
+
+/* Hamburger button styles */
+  .custom-dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .custom-dropdown-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    z-index: 1; /* Adjust this value to position the image */
+  }
+  
+  .custom-select {
+    padding-left: 0px; /* Make space for the image */
+    border: none;
+
+outline: none;  }
+
+/* .ant-select .ant-select-arrow {
+  display: none;
+} */
+.ant-select-selector{
+  border: none !important;
+}
+.ant-input-affix-wrapper >input.ant-input{
+  background: #F2F4F7;
+}
+
+.search-bar {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Style for the search bar when focused */
+.search-focused {
+  width: 300px; /* Adjust the width as needed */
+}
+
+/* Style for the expanded search input */
+.search-input-expanded {
+  width: 100%;
+  padding-right: 40px; /* Space for the search icon */
+}
+
+/* Style for the custom dropdown container */
+.custom-dropdown-container {
+  position: relative;
+}
+
+/* Style for the custom dropdown image */
+.custom-dropdown-image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px; /* Adjust this value to position the image */
+}
+
+.font-family{
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+/****** Signup/in Modal Css ******/
+
+.ant-modal-content {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+div#\:r7\:{
+  background-color: #FCFCFD;
+  padding-left: 20px;
+  padding-top: 30px;
+  border-radius: 8px;
+}
+
+button.ant-modal-close {
+  margin-top: 12px;
+}
+
+.ant-input-affix-wrapper >input.ant-input {
+  background: none;
+}
+
+
+:where(.css-dev-only-do-not-override-fpg3f5).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: white;
+  border-color: black;
+}
+
+img.modal-logo-class{
+  padding-top: 27px;
+  margin-left: 19px;
+}
+
+img.cursor-pointer{
+  padding-top: 27px;
+  margin-left: 19px;
+}
+
+.custom-animation{
+  animation-duration: 0s !important;
+}
+
+
+li.ant-dropdown-menu-item.ant-dropdown-menu-item-only-child {
+  width: 160px;
+  margin-bottom: 12px !important;
+}

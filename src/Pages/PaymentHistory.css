@@ -1,0 +1,19 @@
+span.ant-tag.ant-tag-volcano.css-dev-only-do-not-override-fpg3f5 {
+    border-radius: 10px;
+}
+
+span.ant-tag.ant-tag-green.css-dev-only-do-not-override-fpg3f5 {
+    border-radius: 10px;
+}
+
+:where(.css-dev-only-do-not-override-fpg3f5).ant-tag-volcano {
+    color: #F1AB00;
+    background: white;
+    border-color: #F1AB00;
+}
+
+:where(.css-dev-only-do-not-override-fpg3f5).ant-tag-green {
+    color: #027A48;
+    background: white;
+    border-color: #027A48;
+}

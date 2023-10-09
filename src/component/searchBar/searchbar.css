@@ -1,0 +1,73 @@
+.ant-select-item.ant-select-item-active {
+    background-color: #f0f0f0;
+  }
+  
+  /* Apply custom styles to the hovered item */
+  /* .ant-select-item-option:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  } */
+  
+  /* Apply custom styles to the trending items */
+  .trending-item {
+    cursor: pointer;
+    padding: 6px 12px;
+  }
+  
+  /* Apply custom styles to the clear all and recent search row */
+  .recent-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 12px;
+  }
+  
+  /* Apply custom styles to the recent search items */
+  .recent-item {
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  /* Apply custom styles to the trending title and items */
+  .trending-option {
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    font-weight: bold;
+  }
+  
+  /* Apply custom styles to the trending image */
+  .trending-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  .ant-select-item-option:hover {
+    background-color: transparent;
+    cursor: default;
+  }
+  .ant-select-item-option-active{
+    background-color: transparent !important;
+    cursor: default;
+  }
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    fill: #555; /* Adjust the color as needed */
+  }
+  
+  /* Apply custom styles to the recent search and clear all row */
+  .recent-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+  }
+  
+  /* Apply custom styles to the clear all button */
+  .clear-all-button {
+    cursor: pointer;
+    color: blue; /* Adjust the color as needed */
+  }

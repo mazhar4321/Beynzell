@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.card-shadow{
+    border-radius: 8px;
+    background: var(--neutral-grey-0, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+.banner-replacer{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.custom-upload-button {
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .fav-tabs .ant-tabs .ant-tabs-tab{
+    border-radius: 100px;
+border: 1px solid var(--neutral-grey-300, #D0D5DD);
+line-height: 1;
+padding: 10px;
+  }
+  .fav-tabs .ant-tabs .ant-tabs-tab-active{
+    background-color: #0068B3;
+    color: #FFF;
+    border-bottom: none !important;
+    outline: none;
+  }
+  .fav-tabs .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #FFF;
+  }
+  .fav-tabs .ant-tabs .ant-tabs-ink-bar{
+    background:  transparent;
+  }
+  .fav-tabs .ant-tabs-nav-wrap{
+    padding-bottom: 20px;
+  }
+  .fav-tabs .ant-tabs{
+    border: none;
+  }
+.card-shadow-2{
+    width: 59%;
+    border-radius: 8px;
+    background: var(--neutral-grey-0, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+
+.card-shadow-3{
+    width: 40%;
+    border-radius: 8px;
+    background: var(--neutral-grey-0, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+
+
+
+
+
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-item {
+    width: 24%;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .remove-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .thumbnail-label {
+    position: absolute;
+    font-size: 12px;
+    background-color: white;
+    color: #0068B3;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .image-item:hover .thumbnail-label {
+    display: block;
+  }
+  .image-item {
+    /* ... (other styles) */
+    position: relative;
+  }
+  
+  .thumbnail-hover {
+    transition: filter 0.3s ease-in-out; /* Add a transition effect */
+  }
+  
+  .thumbnail-hover:hover {
+    filter: brightness(70%); /* Apply a filter effect on hover */
+  }
+
+  .transition-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* Add a transition effect */
+  }
+  
+  .toggle-visible {
+    max-height: 1000px; /* Set an appropriate max height */
+  }
+  .discount .ant-select-arrow {
+    display: block !important;
+}
+.custom-checkbox {
+  position: relative;
+  appearance: none;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-checkbox.selected {
+  background-color: #0068b3;
+  border-color: #0068b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-checkbox:checked {
+  background-color: #0068b3;
+  border-color: #0068b3;
+  width: 20px;
+  height: 20px;
+}
+.payment-method .ant-checkbox .ant-checkbox-inner{
+  border-radius:  50% !important;
+  border: none !important;
+}
+.payment-method .ant-checkbox-checked .ant-checkbox-inner{
+  background-color: transparent !important;
+}
+.custom-checkbox:focus {
+  outline: none;
+}
+.ant-select .ant-select-selection-item{
+  color: var(--neutral-grey-900, #101828);
+/* Body/Body 1 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.ant-select-dropdown .ant-select-item , .ant-input{
+  color: var(--neutral-grey-900, #101828);
+/* Body/Body 1 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+
+.corporate-card-shadow{
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+.ant-drawer-header-title {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+}
+ .custom-table tr:nth-child(even) td {
+  background-color: #f9fafb;
+  
+}
+.custom-table > tr > td{
+  font-size: 99px !important;
+}
+.custom-table td,
+.custom-table th ,
+.custom-table tr {
+  color: #475467;
+  font-weight: 500;
+}
+.corporate-shadow{
+  border-top: 1px solid var(--neutral-grey-200, #EAECF0);
+background: var(--neutral-grey-0, #FFF);
+/* Drawer control */
+box-shadow: 0px -4px 26px 0px rgba(0, 0, 0, 0.05);
+}
+.table-cont .ant-table-selection-column .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--primary-blue-25, #E6F0F7);
+  border: 1px solid var(--primary-blue-100, #0068B3);
+  border-radius: 6px;
+}
+.table-cont .ant-table-selection-column .ant-checkbox-checked .ant-checkbox-input:checked + .ant-checkbox-inner::after{
+  position: absolute;
+  top: 50%;
+  inset-inline-start: 21.5%;
+  display: table;
+  width: 5.7142857142857135px;
+  height: 9.142857142857142px;
+  border: 2px solid #0068B3;
+  border-top: 0;
+  border-inline-start: 0;
+
+}
+.custom-steps .step-title {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon{
+  background-color: #0068B3;
+}
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon >.ant-steps-icon{
+  color:  #fff;
+}

@@ -1,0 +1,19 @@
+.specifications-table {
+    display: table;
+    width: 100%;
+  }
+  
+  .table-row {
+    display: table-row;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    padding: 10px;
+    /* border-bottom: 1px solid #ccc;  */
+  }
+  
+
+.custom-height-3{
+  height: 732px;
+}

@@ -1,0 +1,36 @@
+.custom-height{
+    height: 538px ;
+    width: 100%;
+}
+
+.custom-height-2{
+    height: 780px;
+}
+
+.landing-page-custom-carousel-arrow button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    background: rgba(0, 0, 0, 0.50) !important;
+}
+
+.landing-page-custom-carousel-arrow button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    background: rgba(0, 0, 0, 0.50) !important;
+}
+
+.landing-page-custom-carousel-arrow .react-multiple-carousel__arrow::before{
+    color: #bfbfbf !important;
+    font-size: 15px
+} 
+
+.landing-page-custom-carousel-arrow .react-multiple-carousel__arrow{
+    min-width: 30px;
+    min-height: 40px;
+    border-radius: 11px;
+}
+
+.landing-page-custom-carousel-arrow .react-multi-carousel-dot--active button{
+    background-color: white !important;
+    border-color: white;
+}
+
+.landing-page-custom-carousel-arrow .react-multi-carousel-dot button {
+    background: gray;
+}

@@ -1,0 +1,118 @@
+.custom-dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style the active dot */
+  .custom-dot.active {
+    background-color: white; /* Customize the active dot color */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Style the inactive dots */
+  .custom-dot:not(.active) {
+    background-color: transparent; /* Customize the inactive dot color */
+    border: 1px solid #fff;
+  }
+  .carousal .react-multi-carousel-dot-list{
+    bottom: 11px;
+    left: -205px;
+  }
+  .top-search{
+    border-radius: 8px;
+background: var(--neutral-grey-0, #FFF);
+/* Card */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+  }
+
+  .custom-tabs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap:  20px;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    cursor: pointer;
+    border-radius: 100px;
+border: 1px solid var(--neutral-grey-300, #D0D5DD);
+mix-blend-mode: multiply;
+  }
+  
+  .tab.active {
+    border-radius: 100px;
+border: 1px solid var(--primary-blue-100, #0068B3);
+background: var(--primary-blue-100, #0068B3);
+mix-blend-mode: multiply;
+color: #fff;
+  }
+  
+  .carousel-container {
+    border: 1px solid #ddd;
+  }
+  
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .top-search .react-multiple-carousel__arrow--right{
+    width: 48px;
+height: 48px;
+padding: 12px;
+justify-content: center;
+align-items: center;
+border-radius: 24px;
+background: #FFF;
+/* Arrow */
+box-shadow: 0px 8px 12px 0px rgba(36, 39, 44, 0.15);
+  }
+  .top-search .react-multiple-carousel__arrow::before {
+    font-size: 15px;
+    color: #1D2939;
+    display: block;
+    font-family: revicons;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+.top-search .react-multiple-carousel__arrow--left{
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #FFF;
+    /* Arrow */
+    box-shadow: 0px 8px 12px 0px rgba(36, 39, 44, 0.15);
+}
+.top-search .react-multiple-carousel__arrow--left::before {
+    font-size: 15px;
+    color: #1D2939;
+    display: block;
+    font-family: revicons;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
